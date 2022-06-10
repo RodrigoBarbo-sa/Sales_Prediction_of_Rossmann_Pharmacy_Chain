@@ -115,7 +115,7 @@ As características escolhidas por Boruta estão descritas no notebook.
 
 Quatro modelos diferentes (regressão linear, regressão linear regularizada - Lasso, random forest e XGBoost ) foram avaliados usando a validação cruzada em base contínua, esquematicamente representada a seguir.
 
-![cross_validation](images/cross_validation.png)
+![cross_validation](images/cross_validation.PNG)
 
 Começou com uma parcela reduzida dos dados de treinamento, cujas últimas 6 semanas foram separadas para validação; em seguida, o modelo foi treinado e seu desempenho foi calculado. <br>
 Novas iterações foram realizadas, cada vez aumentando o conjunto de dados de treinamento e sempre separando as últimas 6 semanas para o teste. <br>
@@ -169,7 +169,7 @@ A performance geral do modelo pode ser representada pelos gráficos abaixo, aond
 
 <br>
 
-![performance](images/performance.png)
+![performance](images/performance.PNG)
 
 No geral, o modelo teve um bom desempenho. <br>
 Mas é sempre possível melhorá-lo; seguindo a metodologia CRISP, caso seja necessária uma nova rodada, pode-se considerar treinar as lojas individualmente ou até mesmo um grupo menor delas, por exemplo. Outra possibilidade é explorar outros modelos de aprendizado de máquina. <br>
